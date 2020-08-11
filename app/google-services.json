@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "39683810481",
+    "firebase_url": "https://fitcheck-7452a.firebaseio.com",
+    "project_id": "fitcheck-7452a",
+    "storage_bucket": "fitcheck-7452a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39683810481:android:3b6b93fab1f5353e98ee90",
+        "android_client_info": {
+          "package_name": "com.ichhya.fitcheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39683810481-qq9g6hsfoo387fkbh32dsr09rll4t75u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdfMAsMReVXg50GPqGWPNVdnsCrbumWGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39683810481-qq9g6hsfoo387fkbh32dsr09rll4t75u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:39683810481:android:2835142853b2893e98ee90",
+        "android_client_info": {
+          "package_name": "com.nayaproject.fitcheck"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "39683810481-qq9g6hsfoo387fkbh32dsr09rll4t75u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdfMAsMReVXg50GPqGWPNVdnsCrbumWGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "39683810481-qq9g6hsfoo387fkbh32dsr09rll4t75u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

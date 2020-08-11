@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_challenge"
+        android:padding="10dp"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#a3a2a2">
+    </View>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Enter challenge"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:padding="15dp"
+        android:drawablePadding="3dp"
+        android:drawableLeft="@drawable/ic_name"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:drawableStart="@drawable/ic_name" />
+
+    <EditText
+        android:id="@+id/challengeby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Challenge by?"
+        android:textSize="18sp"
+        android:layout_marginHorizontal="10dp"
+        android:maxLines="1"
+        android:inputType="text"
+        android:padding="15dp"
+        android:drawablePadding="3dp"
+        android:drawableStart="@drawable/ic_challengeby"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        android:drawableLeft="@drawable/ic_challengeby" />
+
+    <EditText
+        android:id="@+id/days"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/challenge_days"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:maxLines="1"
+        android:inputType="number"
+        android:padding="15dp"
+        android:drawablePadding="3dp"
+        android:drawableLeft="@drawable/ic_days"
+        android:autofillHints=""
+        android:drawableStart="@drawable/ic_days" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_starting_measurements"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="8dp"
+        android:textSize="20sp"
+        android:gravity="start"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal"
+        android:layout_marginStart="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/waist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/waist"
+            android:textSize="18sp"
+            android:layout_marginHorizontal="10dp"
+            android:maxLines="1"
+            android:inputType="numberDecimal"
+            android:padding="15dp"
+            android:drawablePadding="3dp"
+            android:drawableRight="@drawable/ic_waist"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:drawableEnd="@drawable/ic_waist" />
+
+        <EditText
+            android:id="@+id/thigh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/thigh"
+            android:textSize="18sp"
+            android:layout_marginHorizontal="10dp"
+            android:maxLines="1"
+            android:inputType="numberDecimal"
+            android:padding="15dp"
+            android:drawablePadding="3dp"
+            android:drawableRight="@drawable/ic_thigh"
+            android:layout_weight="1"
+            android:autofillHints=""
+            android:drawableEnd="@drawable/ic_thigh" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/lowerthigh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lower thigh"
+            android:textSize="18sp"
+            android:layout_marginHorizontal="10dp"
+            android:maxLines="1"
+            android:inputType="numberDecimal"
+            android:padding="15dp"
+            android:drawablePadding="3dp"
+            android:drawableRight="@drawable/ic_lowerthigh"
+            android:layout_weight="1"/>
+
+        <EditText
+            android:id="@+id/calf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Calf"
+            android:textSize="18sp"
+            android:layout_marginHorizontal="10dp"
+            android:maxLines="1"
+            android:inputType="numberDecimal"
+            android:padding="15dp"
+            android:drawablePadding="3dp"
+            android:drawableRight="@drawable/ic_calf"
+            android:layout_weight="1"
+            android:drawableEnd="@drawable/ic_calf"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/arm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Arm"
+            android:textSize="18sp"
+            android:layout_marginHorizontal="10dp"
+            android:maxLines="1"
+            android:inputType="numberDecimal"
+            android:padding="15dp"
+            android:drawablePadding="3dp"
+            android:drawableRight="@drawable/ic_arm"
+            android:layout_weight="1"
+            android:drawableEnd="@drawable/ic_arm"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Weight"
+            android:textSize="18sp"
+            android:layout_marginHorizontal="10dp"
+            android:maxLines="1"
+            android:inputType="numberDecimal"
+            android:padding="15dp"
+            android:drawablePadding="3dp"
+            android:drawableRight="@drawable/ic_weight"
+            android:layout_weight="1"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="5dp"
+        android:paddingBottom="20dp">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/button_bg"
+            android:clickable="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="2dp"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="2dp"
+            tools:ignore="ObsoleteLayoutParam" />
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg"
+            android:clickable="true"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="2dp"
+            android:text="@string/add"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_weight="1"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="5dp"
+            android:focusable="true" />
+    </LinearLayout>
+
+</LinearLayout>
